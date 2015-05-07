@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="left_menu_line_color">#B3B3B3</color>
+    <color name="first_view_login_btn_color">#FA8A05</color>
+    <color name="actionbar_color">#F78B26</color>
+    <color name="activity_bg_color">#EFEFEF</color>
+    <color name="total_amount_bg">#CCCCCC</color>
+    <color name="clean_color">#00000000</color>
+    <color name="btn_bac_black">#dd333333</color>
+    <color name="half_color">#cccccccc</color>
+    <color name="transparent">#00cccccc</color>
+    <color name="little_color">#eecccccc</color>
+    <color name="label_color">#999999</color>
+    <color name="btn_approval_color">#333333</color>
+    <color name="color_blue">#0099FF</color>
+    <color name="btn_save_bg">#666666</color>
+    <color name="btn_back">#dd666666</color>
+    <color name="white_back">#ffffff</color>
+    
+    <!-- 报表 -->
+    <color name="account_customer">#FFD306</color>
+    <color name="account_recieving">#82D900</color>
+    <color name="account_recieved">#66B3FF</color>
+    <color name="account_terminal">#F00078</color>
+    <color name="account_remark">#82D900</color>
+    <color name="profit_report_totalamout">#3399FF</color>
+    <color name="profit_report_total_back">#abbfdc</color>
+    <color name="profit_report_time">#e7ecf6</color>
+    <color name="back_cash_amount_beforestart">#99CCCC</color>
+    <color name="back_cash_amount_beforeend">#FFCC00</color>
+    <color name="back_cash_amount_afterend">#009999</color>
+    
+</resources>

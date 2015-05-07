@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/actionbar_color"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:id="@+id/title_base_layout"
+    android:paddingRight="10dp" >
+
+    <LinearLayout
+        android:id="@+id/title_left"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:gravity="left" >
+
+        <ImageButton
+            android:id="@+id/title_btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:scaleType="centerInside"
+            android:background="@color/clean_color"
+            android:src="@drawable/icon_arrows_left" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/activity_bg_color"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/title_text_right_parent"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/title_right_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="false"
+            android:text="@string/right_title_text"
+            android:textColor="@color/activity_bg_color"
+            android:textSize="@dimen/textSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/title_right_parent"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:gravity="right" >
+
+        <ImageButton
+            android:id="@+id/title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:scaleType="centerInside"
+            android:background="@color/clean_color"
+            android:src="@drawable/icon_xzbx_hover2x" />
+    </LinearLayout>
+    
+
+</LinearLayout>

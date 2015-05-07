@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.lejing.renshi.view.HVScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="slksjdksaaaaa4555555555555555555a6sd46as46d46as46d46aaaaaaaaaaaaaaaaaaaaaaa4d6a4s6d46a4w64d4w64d243e434e63de4q6d4w64qw64d34d6qwd414e624ew14d462d6wqd46246d46qd4646q4w6d46" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bg_main" />
+        </LinearLayout>
+    </com.lejing.renshi.view.HVScrollView>
+
+</LinearLayout>
